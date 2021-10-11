@@ -1,34 +1,38 @@
 [
     {
-        "name": "FindUser",
-        "private": false
-    },
-    {
-        "name": "valormaximo",
-        "private": false
-    },
-    {
         "name": "confirmUser",
         "private": false
     },
     {
-        "name": "InsertPicture",
+        "name": "GetAllowMenu",
         "private": false
     },
     {
-        "name": "FindMenuItem",
+        "name": "getFieldsData",
         "private": false
     },
     {
-        "name": "loginTrigger",
-        "private": true
+        "name": "ListPermissionsData",
+        "private": false
+    },
+    {
+        "name": "FindUser",
+        "private": false
+    },
+    {
+        "name": "GetUserGroupIDs",
+        "private": false
+    },
+    {
+        "name": "getUserGroupID",
+        "private": false
     },
     {
         "name": "GetUserGroup",
         "private": false
     },
     {
-        "name": "ListGroupPermissions",
+        "name": "GetEntityPermissions",
         "private": false
     },
     {
@@ -36,7 +40,7 @@
         "private": false
     },
     {
-        "name": "ListPermissionsData",
+        "name": "FindSystemDefaultData",
         "private": false
     },
     {
@@ -46,35 +50,11 @@
         "disable_arg_logs": true
     },
     {
-        "name": "getUserGroupID",
-        "private": false
-    },
-    {
-        "name": "verifySessions",
-        "private": false
-    },
-    {
-        "name": "removeSession",
-        "private": false
-    },
-    {
-        "name": "GetAllowMenu",
-        "private": false
-    },
-    {
-        "name": "GetUserGroupIDs",
-        "private": false
-    },
-    {
-        "name": "GetEntityPermissions",
-        "private": false
-    },
-    {
         "name": "GetEntityTypePermissions",
         "private": false
     },
     {
-        "name": "FindSystemDefaultData",
+        "name": "FindMenuItem",
         "private": false
     },
     {
@@ -82,11 +62,39 @@
         "private": false
     },
     {
+        "name": "InsertPicture",
+        "private": false
+    },
+    {
+        "name": "ListGroupPermissions",
+        "private": false
+    },
+    {
         "name": "GetProfileConfiguration",
         "private": false
     },
     {
-        "name": "getFieldsData",
+        "name": "valormaximo",
+        "private": false
+    },
+    {
+        "name": "removeSession",
+        "private": false
+    },
+    {
+        "name": "verifySessions",
+        "private": false
+    },
+    {
+        "name": "loginTrigger",
+        "private": true
+    },
+    {
+        "name": "getFieldsCompleteData",
+        "private": false
+    },
+    {
+        "name": "GetEntityTypeData",
         "private": false
     }
 ]
