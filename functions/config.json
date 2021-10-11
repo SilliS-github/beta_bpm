@@ -1,6 +1,18 @@
 [
     {
-        "name": "confirmUser",
+        "name": "GetEntityPermissions",
+        "private": false
+    },
+    {
+        "name": "FindMenuItem",
+        "private": false
+    },
+    {
+        "name": "GetEntityTypeData",
+        "private": false
+    },
+    {
+        "name": "FindSystemDefaultData",
         "private": false
     },
     {
@@ -8,11 +20,19 @@
         "private": false
     },
     {
-        "name": "getFieldsData",
+        "name": "getConfigurationsCategoryList",
         "private": false
     },
     {
-        "name": "ListPermissionsData",
+        "name": "loginTrigger",
+        "private": true
+    },
+    {
+        "name": "valormaximo",
+        "private": false
+    },
+    {
+        "name": "GetEntityTypePermissions",
         "private": false
     },
     {
@@ -20,27 +40,7 @@
         "private": false
     },
     {
-        "name": "GetUserGroupIDs",
-        "private": false
-    },
-    {
-        "name": "getUserGroupID",
-        "private": false
-    },
-    {
-        "name": "GetUserGroup",
-        "private": false
-    },
-    {
-        "name": "GetEntityPermissions",
-        "private": false
-    },
-    {
-        "name": "ListPermissionsID",
-        "private": false
-    },
-    {
-        "name": "FindSystemDefaultData",
+        "name": "getFieldsData",
         "private": false
     },
     {
@@ -50,15 +50,11 @@
         "disable_arg_logs": true
     },
     {
-        "name": "GetEntityTypePermissions",
+        "name": "getFieldsCompleteData",
         "private": false
     },
     {
-        "name": "FindMenuItem",
-        "private": false
-    },
-    {
-        "name": "getConfigurationsCategoryList",
+        "name": "getUserGroupID",
         "private": false
     },
     {
@@ -66,7 +62,15 @@
         "private": false
     },
     {
-        "name": "ListGroupPermissions",
+        "name": "GetUserGroup",
+        "private": false
+    },
+    {
+        "name": "confirmUser",
+        "private": false
+    },
+    {
+        "name": "GetUserGroupIDs",
         "private": false
     },
     {
@@ -74,7 +78,7 @@
         "private": false
     },
     {
-        "name": "valormaximo",
+        "name": "ListGroupPermissions",
         "private": false
     },
     {
@@ -82,19 +86,15 @@
         "private": false
     },
     {
+        "name": "ListPermissionsData",
+        "private": false
+    },
+    {
+        "name": "ListPermissionsID",
+        "private": false
+    },
+    {
         "name": "verifySessions",
-        "private": false
-    },
-    {
-        "name": "loginTrigger",
-        "private": true
-    },
-    {
-        "name": "getFieldsCompleteData",
-        "private": false
-    },
-    {
-        "name": "GetEntityTypeData",
         "private": false
     }
 ]
