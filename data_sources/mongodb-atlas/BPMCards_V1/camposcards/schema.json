@@ -1,0 +1,69 @@
+{
+    "properties": {
+        "__v": {
+            "bsonType": "int"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "categoria_menu": {
+            "bsonType": "string"
+        },
+        "destaque": {
+            "bsonType": "string"
+        },
+        "label": {
+            "bsonType": "string"
+        },
+        "nome": {
+            "bsonType": "string"
+        },
+        "ordem": {
+            "bsonType": "int"
+        },
+        "permissao": {
+            "bsonType": "string"
+        },
+        "permissão": {
+            "bsonType": "string"
+        },
+        "tipo": {
+            "bsonType": "string"
+        },
+        "val": {
+            "bsonType": "string"
+        },
+        "valores": {
+            "bsonType": "object",
+            "properties": {
+                "eventos": {
+                    "bsonType": "object",
+                    "properties": {
+                        "onChange": {
+                            "bsonType": "string"
+                        },
+                        "onchange": {
+                            "bsonType": "string"
+                        },
+                        "onkeyup": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "mascara": {
+                    "bsonType": "string"
+                },
+                "obrigatorio": {
+                    "bsonType": "string"
+                },
+                "opcoes": {
+                    "bsonType": "string"
+                },
+                "tamanho": {
+                    "bsonType": "string"
+                }
+            }
+        }
+    },
+    "title": "camposcard"
+}

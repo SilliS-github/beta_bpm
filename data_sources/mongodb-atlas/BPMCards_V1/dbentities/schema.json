@@ -1,0 +1,66 @@
+{
+    "properties": {
+        "CreateTimeStamp": {
+            "bsonType": "string"
+        },
+        "CreateUser": {
+            "bsonType": "string"
+        },
+        "DBDicionaryDataBaseID": {
+            "bsonType": "string"
+        },
+        "Description": {
+            "bsonType": "string"
+        },
+        "EntityData": {
+            "bsonType": "object",
+            "properties": {
+                "CNPJ": {
+                    "bsonType": "string"
+                },
+                "RazaoSocial": {
+                    "bsonType": "string"
+                },
+                "Tipo": {
+                    "bsonType": "string"
+                },
+                "_id": {
+                    "bsonType": "objectId"
+                }
+            }
+        },
+        "EntityTypeID": {
+            "bsonType": "string"
+        },
+        "GrupListEntities": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "IDEntity": {
+                        "bsonType": "string"
+                    },
+                    "_id": {
+                        "bsonType": "objectId"
+                    }
+                }
+            }
+        },
+        "Label": {
+            "bsonType": "string"
+        },
+        "LastChangeTimeStamp": {
+            "bsonType": "string"
+        },
+        "LastChangeUser": {
+            "bsonType": "string"
+        },
+        "__v": {
+            "bsonType": "int"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "dbentity"
+}

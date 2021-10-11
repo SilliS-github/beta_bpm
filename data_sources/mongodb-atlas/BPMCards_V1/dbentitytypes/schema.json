@@ -1,0 +1,124 @@
+{
+    "properties": {
+        "ComponentID": {
+            "bsonType": "string"
+        },
+        "CreateTimeStamp": {
+            "bsonType": "string"
+        },
+        "CreateUser": {
+            "bsonType": "string"
+        },
+        "DBDicionaryDataBaseID": {
+            "bsonType": "string"
+        },
+        "Description": {
+            "bsonType": "string"
+        },
+        "EntityActive": {
+            "bsonType": "bool"
+        },
+        "EntityName": {
+            "bsonType": "string"
+        },
+        "EntityVersion": {
+            "bsonType": "int"
+        },
+        "IntefaceEntitytData": {
+            "bsonType": "object",
+            "properties": {
+                "_id": {
+                    "bsonType": "objectId"
+                }
+            }
+        },
+        "Label": {
+            "bsonType": "string"
+        },
+        "LastChangeTimeStamp": {
+            "bsonType": "string"
+        },
+        "LastChangeUser": {
+            "bsonType": "string"
+        },
+        "ReferenceEntities": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "IDEntity": {
+                        "bsonType": "string"
+                    },
+                    "_id": {
+                        "bsonType": "objectId"
+                    }
+                }
+            }
+        },
+        "RelationshipRules": {
+            "bsonType": "object",
+            "properties": {
+                "ChildRules": {
+                    "bsonType": "object",
+                    "properties": {
+                        "AnyEntityAccepted": {
+                            "bsonType": "bool"
+                        },
+                        "SpecificEntities": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "EntityID": {
+                                        "bsonType": "string"
+                                    },
+                                    "LimitEntity": {
+                                        "bsonType": "int"
+                                    },
+                                    "Name": {
+                                        "bsonType": "string"
+                                    },
+                                    "_id": {
+                                        "bsonType": "objectId"
+                                    }
+                                }
+                            }
+                        },
+                        "_id": {
+                            "bsonType": "objectId"
+                        }
+                    }
+                },
+                "ParentRules": {
+                    "bsonType": "object",
+                    "properties": {
+                        "AnyEntity": {
+                            "bsonType": "object",
+                            "properties": {
+                                "LimitEntity": {
+                                    "bsonType": "int"
+                                },
+                                "_id": {
+                                    "bsonType": "objectId"
+                                }
+                            }
+                        },
+                        "AnyEntityAccepted": {
+                            "bsonType": "bool"
+                        },
+                        "_id": {
+                            "bsonType": "objectId"
+                        }
+                    }
+                }
+            }
+        },
+        "__v": {
+            "bsonType": "int"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "dbentitytype"
+}

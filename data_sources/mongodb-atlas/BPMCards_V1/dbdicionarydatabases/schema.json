@@ -1,0 +1,43 @@
+{
+    "properties": {
+        "DescriptionDefaultEN": {
+            "bsonType": "string"
+        },
+        "LabelDefaultE": {
+            "bsonType": "string"
+        },
+        "NameCanvas": {
+            "bsonType": "string"
+        },
+        "NameField": {
+            "bsonType": "string"
+        },
+        "OtherLanguageDescritption": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "Description": {
+                        "bsonType": "string"
+                    },
+                    "Label": {
+                        "bsonType": "string"
+                    },
+                    "Languange": {
+                        "bsonType": "string"
+                    },
+                    "_id": {
+                        "bsonType": "objectId"
+                    }
+                }
+            }
+        },
+        "__v": {
+            "bsonType": "int"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "dbdicionarydatabase"
+}

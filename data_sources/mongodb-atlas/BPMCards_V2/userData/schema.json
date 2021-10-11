@@ -1,0 +1,17 @@
+{
+    "properties": {
+        "Color": {
+            "bsonType": "string"
+        },
+        "IDUser": {
+            "bsonType": "objectId"
+        },
+        "Picture": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "userDatum"
+}

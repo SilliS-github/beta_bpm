@@ -1,0 +1,15 @@
+{
+    "collection": "menu",
+    "database": "BPMCards_V2",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}

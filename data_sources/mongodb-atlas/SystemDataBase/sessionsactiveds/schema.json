@@ -1,0 +1,17 @@
+{
+    "properties": {
+        "__v": {
+            "bsonType": "int"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "expires": {
+            "bsonType": "string"
+        },
+        "userID": {
+            "bsonType": "string"
+        }
+    },
+    "title": "sessionsactived"
+}

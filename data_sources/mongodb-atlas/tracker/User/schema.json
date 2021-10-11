@@ -1,0 +1,7 @@
+{
+    "properties": {
+        "idUser": {
+            "bsonType": "objectId"
+        }
+    }
+}

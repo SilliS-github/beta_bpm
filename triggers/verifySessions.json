@@ -1,0 +1,16 @@
+{
+    "id": "614b4ab1d9e576cc9371d342",
+    "name": "verifySessions",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "0 */1 * * *"
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "verifySessions"
+            }
+        }
+    }
+}

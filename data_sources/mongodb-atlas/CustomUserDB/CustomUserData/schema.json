@@ -1,0 +1,39 @@
+{
+    "properties": {
+        "UserGroupID": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "objectId"
+            }
+        },
+        "UserProfileSettings": {
+            "bsonType": "object",
+            "properties": {
+                "UserProfile": {
+                    "bsonType": "object",
+                    "properties": {
+                        "Language": {
+                            "bsonType": "string"
+                        },
+                        "Name": {
+                            "bsonType": "string"
+                        },
+                        "Picture": {
+                            "bsonType": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "email": {
+            "bsonType": "string"
+        },
+        "userId": {
+            "bsonType": "string"
+        }
+    },
+    "title": "CustomUserDatum"
+}

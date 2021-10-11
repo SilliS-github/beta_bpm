@@ -1,0 +1,20 @@
+{
+    "properties": {
+        "CustomUserData": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "objectId"
+            }
+        },
+        "Title": {
+            "bsonType": "string"
+        },
+        "TypeGroup": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "UserGroup"
+}

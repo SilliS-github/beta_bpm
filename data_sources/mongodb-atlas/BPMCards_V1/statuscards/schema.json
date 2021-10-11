@@ -1,0 +1,29 @@
+{
+    "properties": {
+        "__v": {
+            "bsonType": "int"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "categoria": {
+            "bsonType": "string"
+        },
+        "cor": {
+            "bsonType": "string"
+        },
+        "editavel": {
+            "bsonType": "bool"
+        },
+        "ordem": {
+            "bsonType": "string"
+        },
+        "status": {
+            "bsonType": "string"
+        },
+        "tipo": {
+            "bsonType": "string"
+        }
+    },
+    "title": "statuscard"
+}

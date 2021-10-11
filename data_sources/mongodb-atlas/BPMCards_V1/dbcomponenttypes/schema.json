@@ -1,0 +1,41 @@
+{
+    "properties": {
+        "ComponentActive": {
+            "bsonType": "bool"
+        },
+        "ComponentName": {
+            "bsonType": "string"
+        },
+        "ComponentVersion": {
+            "bsonType": "int"
+        },
+        "CreateTimeStamp": {
+            "bsonType": "string"
+        },
+        "CreateUser": {
+            "bsonType": "string"
+        },
+        "Description": {
+            "bsonType": "string"
+        },
+        "GrupEntityComponent": {
+            "bsonType": "bool"
+        },
+        "Label": {
+            "bsonType": "string"
+        },
+        "LastChangeTimeStamp": {
+            "bsonType": "string"
+        },
+        "LastChangeUser": {
+            "bsonType": "string"
+        },
+        "__v": {
+            "bsonType": "int"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "dbcomponenttype"
+}

@@ -1,0 +1,17 @@
+{
+    "properties": {
+        "Permission": {
+            "bsonType": "string"
+        },
+        "Rule": {
+            "bsonType": "string"
+        },
+        "Title": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "Permission"
+}

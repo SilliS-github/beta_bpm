@@ -1,0 +1,17 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "idUser": {
+            "bsonType": "objectId"
+        },
+        "refreshToken": {
+            "bsonType": "string"
+        },
+        "token": {
+            "bsonType": "string"
+        }
+    },
+    "title": "UserSession"
+}

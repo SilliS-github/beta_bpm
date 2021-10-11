@@ -1,0 +1,23 @@
+{
+    "properties": {
+        "__v": {
+            "bsonType": "int"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "dado": {
+            "bsonType": "string"
+        },
+        "parent": {
+            "bsonType": "string"
+        },
+        "timestamp": {
+            "bsonType": "string"
+        },
+        "tipo": {
+            "bsonType": "string"
+        }
+    },
+    "title": "observa"
+}

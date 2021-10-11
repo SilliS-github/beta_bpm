@@ -1,0 +1,19 @@
+{
+    "properties": {
+        "DDBaseObjectConfiguration": {
+            "bsonType": "object",
+            "properties": {
+                "sample": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "Name": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "ObjectType"
+}

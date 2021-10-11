@@ -1,0 +1,20 @@
+{
+    "properties": {
+        "Tlabel": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "icon": {
+            "bsonType": "string"
+        },
+        "title": {
+            "bsonType": "string"
+        },
+        "url": {
+            "bsonType": "string"
+        }
+    },
+    "title": "menu"
+}

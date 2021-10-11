@@ -1,0 +1,14 @@
+{
+    "properties": {
+        "Email": {
+            "bsonType": "string"
+        },
+        "Nome": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "teste"
+}

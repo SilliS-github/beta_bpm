@@ -1,0 +1,20 @@
+{
+    "properties": {
+        "Label": {
+            "bsonType": "string"
+        },
+        "Permissions": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "Title": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "PermissionsGroup"
+}

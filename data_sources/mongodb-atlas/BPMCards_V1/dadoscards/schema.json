@@ -1,0 +1,66 @@
+{
+    "properties": {
+        "__v": {
+            "bsonType": "int"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "categoria": {
+            "bsonType": "string"
+        },
+        "dados": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "idcampo": {
+                        "bsonType": "string"
+                    },
+                    "valorobject": {
+                        "bsonType": "string"
+                    },
+                    "valortext": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "descricao": {
+            "bsonType": "string"
+        },
+        "funil": {
+            "bsonType": "string"
+        },
+        "grupo": {
+            "bsonType": "string"
+        },
+        "ordem": {
+            "bsonType": "int"
+        },
+        "status": {
+            "bsonType": "string"
+        },
+        "timestampcriacao": {
+            "bsonType": "string"
+        },
+        "tipo": {
+            "bsonType": "string"
+        },
+        "titulo": {
+            "bsonType": "string"
+        },
+        "usuariocriacao": {
+            "bsonType": "object",
+            "properties": {
+                "idusuario": {
+                    "bsonType": "string"
+                },
+                "nomeusuario": {
+                    "bsonType": "string"
+                }
+            }
+        }
+    },
+    "title": "dadoscard"
+}

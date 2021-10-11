@@ -1,0 +1,167 @@
+{
+    "properties": {
+        "BaseGroupPermission": {
+            "bsonType": "object",
+            "properties": {
+                "Permissions": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "PermissionName": {
+                                "bsonType": "string"
+                            },
+                            "PermissionName ": {
+                                "bsonType": "string"
+                            },
+                            "PermissionValue": {
+                                "bsonType": "string"
+                            },
+                            "PermissionValue ": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                },
+                "RestrictionAccess": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "DDBaseConfigurationDocument": {
+            "bsonType": "object",
+            "properties": {
+                "ContractSettings": {
+                    "bsonType": "object",
+                    "properties": {
+                        "ContactEmail": {
+                            "bsonType": "string"
+                        },
+                        "ContactName": {
+                            "bsonType": "string"
+                        },
+                        "ContactPhone": {
+                            "bsonType": "string"
+                        },
+                        "MainDomain": {
+                            "bsonType": "string"
+                        },
+                        "Plan": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "GeneralSettings": {
+                    "bsonType": "object",
+                    "properties": {
+                        "ColorA": {
+                            "bsonType": "string"
+                        },
+                        "ColorB": {
+                            "bsonType": "string"
+                        },
+                        "Currency": {
+                            "bsonType": "string"
+                        },
+                        "LogoImage": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "SystemBasicData": {
+                    "bsonType": "object",
+                    "properties": {
+                        "CompanyName": {
+                            "bsonType": "string"
+                        },
+                        "StartDate": {
+                            "bsonType": "string"
+                        },
+                        "Version": {
+                            "bsonType": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "DDObjectConfiguration": {
+            "bsonType": "object",
+            "properties": {
+                "AllowMenu": {
+                    "bsonType": "string"
+                },
+                "Creator": {
+                    "bsonType": "object",
+                    "properties": {
+                        "FunctionAppStart": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "Destructor": {
+                    "bsonType": "object",
+                    "properties": {
+                        "FunctionAppDestructor": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "NewItem": {
+                    "bsonType": "object",
+                    "properties": {
+                        "Active": {
+                            "bsonType": "string"
+                        },
+                        "FunctionAppNewItem": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "Pause": {
+                    "bsonType": "object",
+                    "properties": {
+                        "FunctionAppPause": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "Search": {
+                    "bsonType": "object",
+                    "properties": {
+                        "Active": {
+                            "bsonType": "string"
+                        },
+                        "FunctionSearch": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "sample": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "Description": {
+            "bsonType": "string"
+        },
+        "Description ": {
+            "bsonType": "string"
+        },
+        "Description:": {
+            "bsonType": "string"
+        },
+        "Name": {
+            "bsonType": "string"
+        },
+        "ObjectType": {
+            "bsonType": "objectId"
+        },
+        "ObjectTypeID": {
+            "bsonType": "objectId"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "EntityType"
+}

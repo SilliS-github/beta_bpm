@@ -1,0 +1,28 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "label": {
+            "bsonType": "string"
+        },
+        "link": {
+            "bsonType": "object",
+            "properties": {
+                "target": {
+                    "bsonType": "string"
+                },
+                "url": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "mensagem": {
+            "bsonType": "string"
+        },
+        "nome": {
+            "bsonType": "string"
+        }
+    },
+    "title": "modulo"
+}

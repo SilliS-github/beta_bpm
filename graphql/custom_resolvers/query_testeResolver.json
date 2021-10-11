@@ -1,0 +1,9 @@
+{
+    "field_name": "testeResolver",
+    "function_name": "FindUser",
+    "input_type": "TesteQueryInput",
+    "input_type_format": "generated",
+    "on_type": "Query",
+    "payload_type": "Teste",
+    "payload_type_format": "generated"
+}

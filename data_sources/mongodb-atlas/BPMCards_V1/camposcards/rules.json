@@ -1,0 +1,12 @@
+{
+    "collection": "camposcards",
+    "database": "BPMCards_V1",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "insert": true,
+            "delete": true
+        }
+    ]
+}
