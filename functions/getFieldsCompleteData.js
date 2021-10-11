@@ -1,6 +1,7 @@
 exports = async function(arg){
     let user = context.user;
     let fieldData = await context.functions.execute("getFieldsData",arg);
+    fieldData=fieldData.EntityTypeID;
   //  let fieldDataTypeID = fieldData.EntityTypeID;
   //  let EntityTypeData = await context.functions.execute("GetEntityTypeData",fieldDataTypeID); 
     

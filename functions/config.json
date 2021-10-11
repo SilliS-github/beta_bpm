@@ -1,10 +1,40 @@
 [
     {
-        "name": "GetEntityPermissions",
+        "name": "GetUserGroup",
         "private": false
     },
     {
+        "name": "GetProfileConfiguration",
+        "private": false
+    },
+    {
+        "name": "confirmUser",
+        "private": false
+    },
+    {
+        "name": "ListPermissionsData",
+        "private": false
+    },
+    {
+        "name": "listAllUserPermissions",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
         "name": "FindMenuItem",
+        "private": false
+    },
+    {
+        "name": "GetUserGroupIDs",
+        "private": false
+    },
+    {
+        "name": "getUserGroupID",
+        "private": false
+    },
+    {
+        "name": "getFieldsData",
         "private": false
     },
     {
@@ -12,11 +42,11 @@
         "private": false
     },
     {
-        "name": "FindSystemDefaultData",
+        "name": "valormaximo",
         "private": false
     },
     {
-        "name": "GetAllowMenu",
+        "name": "verifySessions",
         "private": false
     },
     {
@@ -28,65 +58,11 @@
         "private": true
     },
     {
-        "name": "valormaximo",
-        "private": false
-    },
-    {
-        "name": "GetEntityTypePermissions",
-        "private": false
-    },
-    {
-        "name": "FindUser",
-        "private": false
-    },
-    {
-        "name": "getFieldsData",
-        "private": false
-    },
-    {
-        "name": "listAllUserPermissions",
-        "private": false,
-        "run_as_system": true,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "getFieldsCompleteData",
-        "private": false
-    },
-    {
-        "name": "getUserGroupID",
-        "private": false
-    },
-    {
         "name": "InsertPicture",
         "private": false
     },
     {
-        "name": "GetUserGroup",
-        "private": false
-    },
-    {
-        "name": "confirmUser",
-        "private": false
-    },
-    {
-        "name": "GetUserGroupIDs",
-        "private": false
-    },
-    {
-        "name": "GetProfileConfiguration",
-        "private": false
-    },
-    {
-        "name": "ListGroupPermissions",
-        "private": false
-    },
-    {
-        "name": "removeSession",
-        "private": false
-    },
-    {
-        "name": "ListPermissionsData",
+        "name": "FindSystemDefaultData",
         "private": false
     },
     {
@@ -94,7 +70,31 @@
         "private": false
     },
     {
-        "name": "verifySessions",
+        "name": "removeSession",
+        "private": false
+    },
+    {
+        "name": "GetAllowMenu",
+        "private": false
+    },
+    {
+        "name": "getFieldsCompleteData",
+        "private": false
+    },
+    {
+        "name": "GetEntityPermissions",
+        "private": false
+    },
+    {
+        "name": "ListGroupPermissions",
+        "private": false
+    },
+    {
+        "name": "FindUser",
+        "private": false
+    },
+    {
+        "name": "GetEntityTypePermissions",
         "private": false
     }
 ]
