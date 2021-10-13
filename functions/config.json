@@ -1,56 +1,10 @@
 [
     {
-        "name": "getFieldsCompleteData",
+        "name": "FindMenuItem",
         "private": false
     },
     {
-        "name": "InsertPicture",
-        "private": false
-    },
-    {
-        "name": "listAllUserPermissions",
-        "private": false,
-        "run_as_system": true,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "GetUserGroupIDs",
-        "private": false
-    },
-    {
-        "name": "getConfigurationsCategoryList",
-        "private": false
-    },
-    {
-        "name": "getFieldsData",
-        "private": false
-    },
-    {
-        "name": "GetEntityTypeData",
-        "private": false
-    },
-    {
-        "name": "GetProfileConfiguration",
-        "private": false
-    },
-    {
-        "name": "removeSession",
-        "private": false
-    },
-    {
-        "name": "ListPermissionsID",
-        "private": false
-    },
-    {
-        "name": "FindSystemDefaultData",
-        "private": false
-    },
-    {
-        "name": "verifySessions",
-        "private": false
-    },
-    {
-        "name": "ListPermissionsData",
+        "name": "GetUserGroup",
         "private": false
     },
     {
@@ -62,7 +16,17 @@
         "private": false
     },
     {
-        "name": "getUserGroupID",
+        "name": "ListGroupPermissions",
+        "private": false
+    },
+    {
+        "name": "listAllUserPermissions",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "InsertPicture",
         "private": false
     },
     {
@@ -70,7 +34,7 @@
         "private": false
     },
     {
-        "name": "ListGroupPermissions",
+        "name": "ListPermissionsData",
         "private": false
     },
     {
@@ -78,11 +42,7 @@
         "private": false
     },
     {
-        "name": "GetEntityTypePermissions",
-        "private": false
-    },
-    {
-        "name": "GetUserGroup",
+        "name": "ListPermissionsID",
         "private": false
     },
     {
@@ -90,11 +50,51 @@
         "private": false
     },
     {
-        "name": "FindMenuItem",
+        "name": "FindSystemDefaultData",
+        "private": false
+    },
+    {
+        "name": "getFieldsCompleteData",
+        "private": false
+    },
+    {
+        "name": "getFieldsData",
+        "private": false
+    },
+    {
+        "name": "GetProfileConfiguration",
+        "private": false
+    },
+    {
+        "name": "GetEntityTypePermissions",
         "private": false
     },
     {
         "name": "loginTrigger",
         "private": true
+    },
+    {
+        "name": "verifySessions",
+        "private": false
+    },
+    {
+        "name": "getUserGroupID",
+        "private": false
+    },
+    {
+        "name": "removeSession",
+        "private": false
+    },
+    {
+        "name": "GetEntityTypeData",
+        "private": false
+    },
+    {
+        "name": "GetUserGroupIDs",
+        "private": false
+    },
+    {
+        "name": "getConfigurationsCategoryList",
+        "private": false
     }
 ]
