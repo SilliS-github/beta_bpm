@@ -1,9 +1,10 @@
 exports = async function(arg){
     let user = context.user;
     let fieldData = await context.functions.execute("getFieldsData",arg);
-    fieldData=fieldData.EntityTypeID;
-  //  let fieldDataTypeID = fieldData.EntityTypeID;
-  //  let EntityTypeData = await context.functions.execute("GetEntityTypeData",fieldDataTypeID); 
+    let EntityTypeID=fieldData.EntityTypeID;
+    let EntityTypeData = await context.functions.execute("GetEntityTypeData",EntityTypeID); 
+    
+    let result= {FieldData: fieldData, EntityTypeData : EntityTypeData}
     
    /* let PermissionsIDArray=[];
     let PermissionsDataArray=[];
@@ -22,6 +23,6 @@ exports = async function(arg){
        PermissionsDataArray.push(result3);
     }*/
     
-    return  fieldData;
+    return  result;
   
 };
