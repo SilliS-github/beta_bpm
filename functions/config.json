@@ -1,36 +1,10 @@
 [
     {
+        "name": "verifySessions",
+        "private": false
+    },
+    {
         "name": "FindMenuItem",
-        "private": false
-    },
-    {
-        "name": "GetUserGroup",
-        "private": false
-    },
-    {
-        "name": "FindUser",
-        "private": false
-    },
-    {
-        "name": "GetAllowMenu",
-        "private": false
-    },
-    {
-        "name": "ListGroupPermissions",
-        "private": false
-    },
-    {
-        "name": "listAllUserPermissions",
-        "private": false,
-        "run_as_system": true,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "InsertPicture",
-        "private": false
-    },
-    {
-        "name": "GetEntityPermissions",
         "private": false
     },
     {
@@ -38,31 +12,11 @@
         "private": false
     },
     {
-        "name": "valormaximo",
-        "private": false
-    },
-    {
-        "name": "ListPermissionsID",
-        "private": false
-    },
-    {
-        "name": "confirmUser",
-        "private": false
-    },
-    {
-        "name": "FindSystemDefaultData",
-        "private": false
-    },
-    {
-        "name": "getFieldsCompleteData",
-        "private": false
-    },
-    {
         "name": "getFieldsData",
         "private": false
     },
     {
-        "name": "GetProfileConfiguration",
+        "name": "ListGroupPermissions",
         "private": false
     },
     {
@@ -74,11 +28,7 @@
         "private": true
     },
     {
-        "name": "verifySessions",
-        "private": false
-    },
-    {
-        "name": "getUserGroupID",
+        "name": "ListPermissionsID",
         "private": false
     },
     {
@@ -86,15 +36,65 @@
         "private": false
     },
     {
+        "name": "GetUserGroup",
+        "private": false
+    },
+    {
+        "name": "GetProfileConfiguration",
+        "private": false
+    },
+    {
+        "name": "getConfigurationsCategoryList",
+        "private": false
+    },
+    {
+        "name": "FindSystemDefaultData",
+        "private": false
+    },
+    {
+        "name": "GetEntityPermissions",
+        "private": false
+    },
+    {
         "name": "GetEntityTypeData",
         "private": false
+    },
+    {
+        "name": "FindUser",
+        "private": false
+    },
+    {
+        "name": "valormaximo",
+        "private": false
+    },
+    {
+        "name": "getFieldsCompleteData",
+        "private": false
+    },
+    {
+        "name": "InsertPicture",
+        "private": false
+    },
+    {
+        "name": "listAllUserPermissions",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
     },
     {
         "name": "GetUserGroupIDs",
         "private": false
     },
     {
-        "name": "getConfigurationsCategoryList",
+        "name": "getUserGroupID",
+        "private": false
+    },
+    {
+        "name": "confirmUser",
+        "private": false
+    },
+    {
+        "name": "GetAllowMenu",
         "private": false
     }
 ]
