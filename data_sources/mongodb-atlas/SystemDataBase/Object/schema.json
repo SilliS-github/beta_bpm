@@ -1,0 +1,176 @@
+{
+    "properties": {
+        "Description": {
+            "bsonType": "string"
+        },
+        "Entity_Object_Interface": {
+            "bsonType": "object",
+            "properties": {
+                "$comment": {
+                    "bsonType": "string"
+                },
+                "EntityConfiguration": {
+                    "bsonType": "object",
+                    "properties": {
+                        "Interface_EntityConfiguration": {
+                            "bsonType": "object",
+                            "properties": {}
+                        },
+                        "Object_EntityConfiguration": {
+                            "bsonType": "object",
+                            "properties": {
+                                "FieldStatus": {
+                                    "bsonType": "array",
+                                    "items": {
+                                        "bsonType": "object",
+                                        "properties": {
+                                            "Deleted": {
+                                                "bsonType": "bool"
+                                            },
+                                            "Hide": {
+                                                "bsonType": "bool"
+                                            }
+                                        }
+                                    }
+                                },
+                                "ParentObjectFlow": {
+                                    "bsonType": "object",
+                                    "properties": {
+                                        "InterfaceID": {
+                                            "bsonType": "objectId"
+                                        },
+                                        "id": {
+                                            "bsonType": "objectId"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "EntityData": {
+                    "bsonType": "object",
+                    "properties": {
+                        "Interface_Data": {
+                            "bsonType": "object",
+                            "properties": {}
+                        },
+                        "Object_Data": {
+                            "bsonType": "object",
+                            "properties": {
+                                "BasicData": {
+                                    "bsonType": "object",
+                                    "properties": {
+                                        "$comment": {
+                                            "bsonType": "string"
+                                        },
+                                        "FieldStructureType": {
+                                            "bsonType": "objectId"
+                                        },
+                                        "IsNull": {
+                                            "bsonType": "bool"
+                                        },
+                                        "StructureType_Data": {
+                                            "bsonType": "object",
+                                            "properties": {
+                                                "$comment": {
+                                                    "bsonType": "string"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "UserGroupPermission": {
+                    "bsonType": "object",
+                    "properties": {
+                        "Interface_UsersGroupPermission": {
+                            "bsonType": "object",
+                            "properties": {
+                                "$comment": {
+                                    "bsonType": "string"
+                                },
+                                "PermissionsBasicDefinition": {
+                                    "bsonType": "object",
+                                    "properties": {
+                                        "GroupID": {
+                                            "bsonType": "objectId"
+                                        }
+                                    }
+                                },
+                                "RestrictionAccess": {
+                                    "bsonType": "bool"
+                                }
+                            }
+                        },
+                        "Object_UsersGroupPermission": {
+                            "bsonType": "object",
+                            "properties": {
+                                "$comment": {
+                                    "bsonType": "string"
+                                },
+                                "PermissionsBasicDefinition": {
+                                    "bsonType": "object",
+                                    "properties": {
+                                        "GroupID": {
+                                            "bsonType": "objectId"
+                                        },
+                                        "Permissions": {
+                                            "bsonType": "array",
+                                            "items": {
+                                                "bsonType": "object",
+                                                "properties": {
+                                                    "PermissionName": {
+                                                        "bsonType": "string"
+                                                    },
+                                                    "PermissionValue": {
+                                                        "bsonType": "string"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "RestrictionAccess": {
+                                    "bsonType": "bool"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Name": {
+            "bsonType": "string"
+        },
+        "Object-InterfaceConfiguration": {
+            "bsonType": "object",
+            "properties": {
+                "BasicRules": {
+                    "bsonType": "object",
+                    "properties": {
+                        "BasicRender": {
+                            "bsonType": "bool"
+                        },
+                        "FieldDeletable": {
+                            "bsonType": "bool"
+                        },
+                        "FieldEditable": {
+                            "bsonType": "bool"
+                        },
+                        "required": {
+                            "bsonType": "bool"
+                        }
+                    }
+                }
+            }
+        },
+        "_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "Object"
+}
