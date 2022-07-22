@@ -1,84 +1,6 @@
 [
     {
-        "name": "verifySessions",
-        "private": false
-    },
-    {
-        "name": "listAllUserPermissions",
-        "private": false,
-        "run_as_system": true,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "confirmUser",
-        "private": false
-    },
-    {
-        "name": "GetEntityTypeData",
-        "private": false
-    },
-    {
-        "name": "loginTrigger",
-        "private": true
-    },
-    {
-        "name": "ListGroupPermissions",
-        "private": false
-    },
-    {
-        "name": "ListPermissionsID",
-        "private": false
-    },
-    {
-        "name": "getFieldsData",
-        "private": false
-    },
-    {
-        "name": "getUserGroupID",
-        "private": false
-    },
-    {
-        "name": "removeSession",
-        "private": false
-    },
-    {
-        "name": "GetProfileConfiguration",
-        "private": false
-    },
-    {
-        "name": "valormaximo",
-        "private": false
-    },
-    {
-        "name": "FindSystemDefaultData",
-        "private": false
-    },
-    {
-        "name": "GetAllowMenu",
-        "private": false
-    },
-    {
-        "name": "getConfigurationsCategoryList",
-        "private": false
-    },
-    {
-        "name": "FindUser",
-        "private": false
-    },
-    {
-        "name": "GetEntityTypePermissions",
-        "private": false
-    },
-    {
-        "name": "GetUserGroup",
-        "private": false
-    },
-    {
-        "name": "InsertPicture",
-        "private": false
-    },
-    {
-        "name": "ListPermissionsData",
+        "name": "FindMenuItem",
         "private": false
     },
     {
@@ -86,12 +8,90 @@
         "private": false
     },
     {
+        "name": "GetUserGroup",
+        "private": false
+    },
+    {
+        "name": "getConfigurationsCategoryList",
+        "private": false
+    },
+    {
+        "name": "ListGroupPermissions",
+        "private": false
+    },
+    {
+        "name": "ListPermissionsData",
+        "private": false
+    },
+    {
+        "name": "getUserGroupID",
+        "private": false
+    },
+    {
+        "name": "GetProfileConfiguration",
+        "private": false
+    },
+    {
+        "name": "loginTrigger",
+        "private": true
+    },
+    {
+        "name": "removeSession",
+        "private": false
+    },
+    {
+        "name": "GetAllowMenu",
+        "private": false
+    },
+    {
         "name": "GetUserGroupIDs",
         "private": false
     },
     {
-        "name": "FindMenuItem",
+        "name": "valormaximo",
         "private": false
+    },
+    {
+        "name": "getFieldsData",
+        "private": false
+    },
+    {
+        "name": "GetEntityTypePermissions",
+        "private": false
+    },
+    {
+        "name": "ListPermissionsID",
+        "private": false
+    },
+    {
+        "name": "confirmUser",
+        "private": false
+    },
+    {
+        "name": "verifySessions",
+        "private": false
+    },
+    {
+        "name": "FindUser",
+        "private": false
+    },
+    {
+        "name": "GetEntityTypeData",
+        "private": false
+    },
+    {
+        "name": "InsertPicture",
+        "private": false
+    },
+    {
+        "name": "FindSystemDefaultData",
+        "private": false
+    },
+    {
+        "name": "listAllUserPermissions",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
     },
     {
         "name": "GetEntityPermissions",
